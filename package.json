@@ -10,6 +10,7 @@
   "files": [
     "dist"
   ],
+  "author": "raegen",
   "bugs": {
     "url": "https://github.com/raegen/ts-schema/issues"
   },
@@ -19,12 +20,8 @@
   "scripts": {
     "build": "tsc"
   },
-  "exports": {
-    ".": {
-      "import": "./dist/ts-schema.js",
-      "types": "./dist/ts-schema.d.ts"
-    }
-  },
+  "module": "./dist/ts-schema.js",
+  "exports": "./dist/ts-schema.js",
   "types": "./dist/ts-schema.d.ts",
   "dependencies": {
     "ts-morph": "^24.0.0",
