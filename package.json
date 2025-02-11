@@ -1,0 +1,39 @@
+{
+  "name": "@raegen/ts-schema",
+  "version": "0.0.1",
+  "description": "Generate JSON Schema from typescript",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raegen/ts-schema.git"
+  },
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "bugs": {
+    "url": "https://github.com/raegen/ts-schema/issues"
+  },
+  "homepage": "https://github.com/raegen/ts-schema#readme",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/ts-schema.js",
+      "types": "./dist/ts-schema.d.ts"
+    }
+  },
+  "types": "./dist/ts-schema.d.ts",
+  "dependencies": {
+    "ts-morph": "^24.0.0",
+    "picomatch": "^4.0.2",
+    "ajv": "^8.17.1",
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/picomatch": "^3.0.1"
+  }
+}
