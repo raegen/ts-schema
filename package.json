@@ -1,6 +1,6 @@
 {
   "name": "@raegen/ts-schema",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Generate JSON Schema from typescript",
   "repository": {
     "type": "git",
